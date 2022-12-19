@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #333;
+    color: #fff;
+    font-size: 36px;
+
+}
+.choinka{
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-radius: 25px;
+}
+
+.lorem{
+    color: lime;
+    text-transform: uppercase;
+}
