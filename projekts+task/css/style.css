@@ -3,6 +3,7 @@
 	padding: 0;
 	margin: 0;
 }
+
 body {
 	font-family: "Raleway", sans-serif;
 }
@@ -17,6 +18,7 @@ body {
 .nav-item {
 	display: inline-block;
 }
+
 .nav-item  a {
 	color: #fff;
 	padding: 0 50px;
@@ -24,11 +26,13 @@ body {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	transition: 0.2s;
+	transition: 0.3s;
 }
+
 .nav-item  a:hover {
-	color: aqua;
+	color: rgb(0, 0, 0);
 }
+
 .header-img{
 	position: relative;
 	height: 300px;
@@ -37,6 +41,7 @@ body {
 	background-position: 10% 31%;
 	
 }
+
 .header-txt{
 	position: absolute;
 	top:50%;
@@ -48,8 +53,72 @@ body {
 	z-index: 5;
 }
 
+main{
+	margin: 50px auto;
+	width: 1200px;
+}
 
+main h2{
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-us-box{
+	margin: 40px 0;
+	overflow: hidden;
+}
+
+.top{
+	position: relative;
+	height: 340px;
+	background-image: url('/projekts+task/img/photos/necktie-g41f62e5e1_1920.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size:auto;
+	border-radius: 100px;
+	background-repeat: no-repeat;
+}
+.middle{
+	position: relative;
+	height: 340px;
+	background-image: url('/projekts+task/img/photos/work-g85ee60b19_1280.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	border-radius: 100px;
+	background-repeat: no-repeat;
+	/* background-size: auto; */
+
+}
+.bottom{
+	position: relative;
+	height: 340px;
+	background-image: url('/projekts+task/img/photos/neckties-g0909c1cca_1920.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	border-radius: 100px;
+	/* background-repeat: no-repeat; */
+	/* background-size: auto; */
+}
+
+.about-us-text{
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+	padding: 20px 40px;
+	text-align: center;
+	color: #fff;
+}
+.about-us-bg{
+	position: absolute;
+	bottom: 0;
+	height: 45%;
+	width: 100%;
+	background-color: rgba(0,0,0,.8);
+	
+}
 footer{
+
 	height: 80px;
 	line-height: 80px;
 	background-color: #333;
@@ -57,8 +126,14 @@ footer{
 	text-align: center;
 	font-size: 20px;
 }
+
 .icon-box a{
 	margin: 0 5px;
 	color: #ddd;
 	font-size: 30px;
+	transition: color 0.3s;
+}
+
+.icon-box a:hover{
+	color: black;
 }
