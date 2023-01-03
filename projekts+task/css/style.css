@@ -72,7 +72,7 @@ main h2{
 .top{
 	position: relative;
 	height: 340px;
-	background-image: url('/projekts+task/img/photos/necktie-g41f62e5e1_1920.jpg');
+	background-image: url('../img/photos/necktie-g41f62e5e1_1920.jpg');
 	/* background-repeat: no-repeat; */
 	background-attachment: fixed;
 	background-position: center;
@@ -83,7 +83,7 @@ main h2{
 .middle{
 	position: relative;
 	height: 340px;
-	background-image: url('/projekts+task/img/photos/work-g85ee60b19_1280.jpg');
+	background-image: url('../img/photos/work-g85ee60b19_1280.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	border-radius: 100px;
@@ -94,7 +94,7 @@ main h2{
 .bottom{
 	position: relative;
 	height: 340px;
-	background-image: url('/projekts+task/img/photos/neckties-g0909c1cca_1920.jpg');
+	background-image: url('../img/photos/neckties-g0909c1cca_1920.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	border-radius: 100px;
